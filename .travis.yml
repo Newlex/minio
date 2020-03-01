@@ -9,7 +9,7 @@ addons:
   sonarcloud:
     organization: "newlex"
     token:
-      secure: "**************************" # encrypted value of your token
+      secure: GBqsJkDCgb+5EsU9TwiqdtXq8hS4GH8yUqIbw8UtDB2fXTt+ueiI476zs4QFkpts2E1wSp9yisrnNUaZqWYqNxLeJMDDJNeWF7IITs9yqmea6ZqhxQyQIZ2B8NZxQYcJ5YZZ6u4BC8NcE9cPZ7vbADEPCzeIsUU1K/+f1aE2rz4xHsiyv8FY+3+oQq/S9z7PCLFJ6Fh6DeaS22R4k8GcNLNZBBrQGnZ3m/gP3h1Uj5ZwiEMzTgvLLEddr8bwkUA85VR6Anh6504XJpSyqCZppRYbUaRrK9YbkSan/LH8sePDk7Jl0DtwGkdrlNFFvEexP7kIxtiSsi0KR6SomJkIM8qE0M7TMBZbWq7YQf+6GKguxdMo5JOKVG+qESVq/iou/3P5LegqQjG8FNU4R49Ix2Pe1hSfkkaO1jufvlp7ls/HW2y3ZdVs+wIqINjLejWTSTtVLHZuX5maxBNjZF7iHkegqqT5KuSkrXt4gthuxHCe/SkCGYOCC6rL5yaL00WHH32mt41dE4jKPC7pNnIz48Lf3BFrPwoXl68EexAadeXh1fGWeWf+wgLgfs/IOyfWoLqz4jdEoYNHIFLiNnm1uaW/fqovJHvJolSkRxDR+CRjHfZMOXFKqKYGnUj6n8Gbe4fPawc0u8b7EQO+NVIaLmZLhQxabrPdADuNRdfji0A=
 
 services:
   - docker
