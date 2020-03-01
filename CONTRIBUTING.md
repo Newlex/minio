@@ -1,7 +1,7 @@
 # MinIO Contribution Guide [![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Go Report Card](https://goreportcard.com/badge/minio/minio)](https://goreportcard.com/report/minio/minio) [![Docker Pulls](https://img.shields.io/docker/pulls/minio/minio.svg?maxAge=604800)](https://hub.docker.com/r/minio/minio/)
 
 ``MinIO`` community welcomes your contribution. To make the process as seamless as possible, we recommend you read this contribution guide.
-
+1
 ## Development Workflow
 
 Start by forking the MinIO GitHub repository, make changes in a branch and then send a pull request. We encourage pull requests to discuss code changes. Here are the steps in details:
