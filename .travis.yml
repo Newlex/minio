@@ -6,7 +6,7 @@ addons:
   apt:
     packages:
     - shellcheck
-
+    
 services:
   - docker
 
@@ -56,3 +56,13 @@ before_script:
 
 before_install:
  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then nvm install stable ; fi
+ 
+addons:
+  sonarcloud:
+    organization: "newlex"
+    token:
+      secure: "**************************" # encrypted value of your token
+
+script:
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - sonar-scanner
